@@ -1,0 +1,35 @@
+Trabalho Final - Programação de Computadores II
+
+Alunos:
+	Bruno Gomes da Silva
+	José Carlos de Jesus Santana Junior
+
+Trabalho:
+	O trabalho apresenta telas simples para que o usuário registre os dados em um formulário e esses dados sejam guardados em um SGBD.
+	O SGBD escolhido para o registro dos dados foi o MySQL.
+	O trabalho teve como base a playlist que se encontra no link: https://www.youtube.com/watch?v=wExUVfZfgfk&list=PLdvD02W3316JtVoctAc_Dg_1PefHgaFYI&index=1&ab_channel=ProfessorPantoja
+	
+	Etapas que foram realizadas:
+		Elaboração do código SQL para criação do banco de dados que se denomina mvc.
+		Criação do view com as telas e configuração dos botões.
+		Criação do model.
+		Criação do controller.
+		Criação do DAO.
+
+	Funcionalidade implementada:
+		Registros no SGBD de cliente, hospedagem e chalé.
+		Consulta de cliente.
+
+	Observações: 
+		No package dao há a classe ConnectionMVC que possui a seguinte linha:
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mvc?useSSl=false", "rootifb", "ifb");
+			O último parâmetro é a senha que foi alterada para colocar o código no gitHub.
+
+		Algumas funcionalidades, botões e aparência ainda não está finalizada. 
+
+	Como foi feito:
+		As telas foram criadas utilizando o jframe, para criar as tabelas e consultar fora utilizado o MySQL Workbench 8.0 CE, utilizou-se MVC para elaboração da aplicação.
+
+gitHub: https://github.com/Brun02/Trabalho-Final---PC2
+
+
